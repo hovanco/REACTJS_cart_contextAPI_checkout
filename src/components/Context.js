@@ -8,7 +8,7 @@ export class DataProvider extends Component {
       {
         "_id": "1",
         "title": "Nike Shoes 01",
-        "src": "https://cdn.tgdd.vn/Products/Images/42/218361/realme-c3-do-600x600-600x600.jpg",
+        "src": "https://hc.com.vn/i/ecommerce/media/GS.001443_FEATURE_49347.jpg",
         "description": "dien thoai oppo",
         "content": "alisosfvsav vsdvsvsvv eemsbsmbsb",
         "price": 7657,

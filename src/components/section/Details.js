@@ -18,12 +18,15 @@ export class Details extends Component {
       const data = res.filter(item =>{
         return item._id === this.props.match.params.id
       })
+      // console.log(data); kiem tra da ra duoc doi tuong cua 1 anh duoc click chon xem chi tiet
       this.setState({product:data})
     }
   }
+
   componentDidMount(){
     this.getProduct();
   }
+
   render() {
     const {product} = this.state;
     const {addCart} = this.context;
@@ -49,6 +52,7 @@ export class Details extends Component {
           ))
         }
       </>
+      
     )
   }
 }
